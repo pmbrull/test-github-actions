@@ -3,7 +3,7 @@ on:
 
 permissions:
   contents: read
-  pull-request: write
+  pull-requests: write
 
 name: team-label
 jobs:
