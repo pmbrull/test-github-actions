@@ -5,10 +5,11 @@ permissions:
   contents: read
   pull-requests: write
 
-name: team-label
+name: Team Label
 jobs:
-  team-labeler:
+  labeler:
     runs-on: ubuntu-latest
+    name: Team Label
     steps:
     - uses: JulienKode/team-labeler-action@v0.1.1
       with:
