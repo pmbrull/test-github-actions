@@ -1,4 +1,4 @@
-name: Approval
+name: Get Approval
 
 on:
   pull_request:
